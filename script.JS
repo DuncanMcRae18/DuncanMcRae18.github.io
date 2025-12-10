@@ -18,11 +18,11 @@ function loadContent(section) {
                 .then(html => content.innerHTML = html)
                 .catch(error => content.innerHTML = '<p>Error loading About page.</p>');
             break;
-        case 'services':
-            fetch('Services.HTML')
+        case 'apps':
+            fetch('Apps.HTML')
                 .then(response => response.text())
                 .then(html => content.innerHTML = html)
-                .catch(error => content.innerHTML = '<p>Error loading Services page.</p>');
+                .catch(error => content.innerHTML = '<p>Error loading Apps page.</p>');
             break;
         case 'contact':
             fetch('Contact.HTML')
