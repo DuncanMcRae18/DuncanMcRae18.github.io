@@ -40,7 +40,6 @@ function loadContent(section) {
                 <section id="contact">
                     <h2>Get in Touch</h2>
                     <p>I'm always open to new opportunities and collaborations. Feel free to reach out!</p>
-                    <p><strong>Phone:</strong> 613-330-3436</p>
                     <p><strong>Email:</strong> [Your Email Here]</p>
                     <p><strong>GitHub:</strong> <a href="https://github.com/DuncanMcRae18" target="_blank">DuncanMcRae18</a></p>
                 </section>
