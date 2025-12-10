@@ -4,13 +4,10 @@ function loadContent(section) {
     const content = document.getElementById('content');
     switch (section) {
         case 'home':
-            content.innerHTML = `
-                <section id="home">
-                    <h2>Welcome to Duncan's Website</h2>
-                    <p>Explore my personal portfolio and discover the services I offer. Whether you're here for inspiration, collaboration, or just to learn more about me, I'm glad you stopped by!</p>
-                    <p>Navigate through the sections above to learn more.</p>
-                </section>
-            `;
+            fetch('Home.HTML')
+                .then(response => response.text())
+                .then(html => content.innerHTML = html)
+                .catch(error => content.innerHTML = '<p>Error loading Home page.</p>');
             break;
         case 'about':
             fetch('About.HTML')
