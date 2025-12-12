@@ -1,0 +1,5 @@
+This is where I keep common commands to copy paste, I'm not a super quick typer
+
+Starting localhost:
+python -m http.server 8000
+http://localhost:8000

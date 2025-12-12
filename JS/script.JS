@@ -4,25 +4,25 @@ function loadContent(section) {
     const content = document.getElementById('content');
     switch (section) {
         case 'home':
-            fetch('Home.HTML')
+            fetch('../HTML/Home.HTML')
                 .then(response => response.text())
                 .then(html => content.innerHTML = html)
                 .catch(error => content.innerHTML = '<p>Error loading Home page.</p>');
             break;
         case 'about':
-            fetch('About.HTML')
+            fetch('../HTML/About.HTML')
                 .then(response => response.text())
                 .then(html => content.innerHTML = html)
                 .catch(error => content.innerHTML = '<p>Error loading About page.</p>');
             break;
         case 'apps':
-            fetch('Apps.HTML')
+            fetch('../HTML/Apps.HTML')
                 .then(response => response.text())
                 .then(html => content.innerHTML = html)
                 .catch(error => content.innerHTML = '<p>Error loading Apps page.</p>');
             break;
         case 'contact':
-            fetch('Contact.HTML')
+            fetch('../HTML/Contact.HTML')
                 .then(response => response.text())
                 .then(html => content.innerHTML = html)
                 .catch(error => content.innerHTML = '<p>Error loading Contact page.</p>');
