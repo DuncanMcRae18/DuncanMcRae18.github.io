@@ -4,7 +4,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(135deg, #2645d0 0%, #2645d0 100%);
+    background: linear-gradient(135deg, #f0f4f8 0%, #d9e2ec 100%); /* Softer, professional gradient */
     color: #333;
     min-height: 100vh;
     display: flex;
@@ -12,9 +12,8 @@ body {
 }
 
 header {
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(10px);
-    color: white;
+    background: #ffffff; /* Solid white for professionalism */
+    color: #333;
     padding: 20px 0;
     text-align: center;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -23,7 +22,7 @@ header {
 header h1 {
     margin: 0;
     font-size: 2.5em;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    color: #2645d0; /* Keep your blue */
 }
 
 nav ul {
@@ -38,7 +37,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: #2645d0;
     text-decoration: none;
     font-weight: bold;
     padding: 10px 15px;
@@ -47,7 +46,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: #e6f0ff;
     transform: translateY(-2px);
 }
 
@@ -56,19 +55,17 @@ main {
     padding: 40px 20px;
     max-width: 1200px;
     margin: 0 auto;
-    background: rgba(255, 255, 255, 0.9);
+    background: #ffffff;
     border-radius: 15px;
-    margin-top: -20px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(10px);
 }
 
 section {
     margin-bottom: 30px;
     padding: 20px;
-    background: white;
+    background: #f9f9f9;
     border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
     transition: transform 0.3s ease;
 }
 
@@ -77,14 +74,14 @@ section:hover {
 }
 
 section h2 {
-    color: #667eea;
-    border-bottom: 3px solid #764ba2;
+    color: #2645d0;
+    border-bottom: 3px solid #667eea;
     padding-bottom: 10px;
     margin-bottom: 20px;
 }
 
 footer {
-    background: rgba(0, 0, 0, 0.8);
+    background: #2645d0;
     color: white;
     text-align: center;
     padding: 20px 0;
@@ -95,11 +92,26 @@ footer {
 .profile-img {
     width: 200px;
     height: auto;
-    border-radius: 10px;
-    margin: 20px 0;
+    border-radius: 50%; /* Circle for modern look */
+    margin: 20px auto;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* CTA button */
+.cta-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #2645d0;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #1a3399;
 }
 
 /* Resume-specific styles */
@@ -107,14 +119,14 @@ footer {
     text-align: left;
     margin-bottom: 30px;
     padding: 20px;
-    background: rgba(255, 255, 255, 0.8);
+    background: #f9f9f9;
     border-radius: 10px;
 }
 
 .resume-header h3 {
     margin: 0;
     font-size: 1.8em;
-    color: #667eea;
+    color: #2645d0;
 }
 
 .resume-section {
@@ -122,8 +134,8 @@ footer {
 }
 
 .resume-section h3 {
-    color: #667eea;
-    border-bottom: 2px solid #764ba2;
+    color: #2645d0;
+    border-bottom: 2px solid #667eea;
     padding-bottom: 5px;
     margin-bottom: 20px;
 }
@@ -131,9 +143,9 @@ footer {
 .job-entry {
     margin-bottom: 25px;
     padding: 15px;
-    background: rgba(255, 255, 255, 0.9);
+    background: #ffffff;
     border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 
 .job-entry h4 {
@@ -150,17 +162,23 @@ footer {
 
 .skills-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
 }
 
 .skills-grid div h4 {
     margin-top: 0;
-    color: #667eea;
+    color: #2645d0;
 }
 
-.skills-grid ul {
-    margin: 10px 0;
+.skills-grid ul li {
+    list-style-type: none; /* Remove bullets for icons */
+    margin: 5px 0;
+}
+
+.skills-grid ul li i {
+    margin-right: 8px;
+    color: #667eea;
 }
 
 /* Responsive design */
