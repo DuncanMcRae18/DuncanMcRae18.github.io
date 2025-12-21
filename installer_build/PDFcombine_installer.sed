@@ -1,0 +1,40 @@
+[Version]
+Class=IEXPRESS
+SEDVersion=3
+[Options]
+PackagePurpose=InstallApp
+ShowInstallProgramWindow=1
+HideExtractAnimation=0
+UseLongFileName=1
+RequireAdmin=0
+OverwriteMode=2
+PackageName=C:\Users\dunc3\OneDrive\Documents\Play\Website\installer_build\PDFcombine-setup.exe
+[Strings]
+InstallPrompt=PDFcombine Installer
+FriendlyName=PDFcombine
+AppLaunched=1
+[SourceFiles]
+SourceFiles0=installer_src\payload
+[SourceFiles0]
+%InstallerSrc% = installer_src\payload
+[SourceFiles0.Files]
+PDFcombine.exe=PDFcombine.exe
+PDFcombine.dll=PDFcombine.dll
+PDFcombine.deps.json=PDFcombine.deps.json
+PDFcombine.runtimeconfig.json=PDFcombine.runtimeconfig.json
+PdfSharp.dll=PdfSharp.dll
+PdfSharp.BarCodes.dll=PdfSharp.BarCodes.dll
+PdfSharp.Charting.dll=PdfSharp.Charting.dll
+PdfSharp.Cryptography.dll=PdfSharp.Cryptography.dll
+PdfSharp.Quality.dll=PdfSharp.Quality.dll
+PdfSharp.Shared.dll=PdfSharp.Shared.dll
+PdfSharp.Snippets.dll=PdfSharp.Snippets.dll
+PdfSharp.System.dll=PdfSharp.System.dll
+PdfSharp.WPFonts.dll=PdfSharp.WPFonts.dll
+System.Security.Cryptography.Pkcs.dll=System.Security.Cryptography.Pkcs.dll
+[SourceFiles0.Files.Common]
+install.cmd=install.cmd
+[InstallCommands]
+InstallProgram="%install.cmd% /run"
+[PackageFiles]
+PackageFiles0=installer_src\payload

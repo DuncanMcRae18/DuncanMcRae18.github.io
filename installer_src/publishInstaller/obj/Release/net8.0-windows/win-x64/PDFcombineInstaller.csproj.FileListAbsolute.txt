@@ -1,0 +1,16 @@
+C:\Users\dunc3\OneDrive\Documents\Play\Website\installer_src\publishInstaller\bin\Release\net8.0-windows\win-x64\PDFcombine-setup.exe
+C:\Users\dunc3\OneDrive\Documents\Play\Website\installer_src\publishInstaller\bin\Release\net8.0-windows\win-x64\zip.b64
+C:\Users\dunc3\OneDrive\Documents\Play\Website\installer_src\publishInstaller\obj\Release\net8.0-windows\win-x64\PDFcombineInstaller.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dunc3\OneDrive\Documents\Play\Website\installer_src\publishInstaller\obj\Release\net8.0-windows\win-x64\PDFcombineInstaller.AssemblyInfoInputs.cache
+C:\Users\dunc3\OneDrive\Documents\Play\Website\installer_src\publishInstaller\obj\Release\net8.0-windows\win-x64\PDFcombineInstaller.AssemblyInfo.cs
+C:\Users\dunc3\OneDrive\Documents\Play\Website\installer_src\publishInstaller\obj\Release\net8.0-windows\win-x64\PDFcombineInstaller.csproj.CoreCompileInputs.cache
+C:\Users\dunc3\OneDrive\Documents\Play\Website\installer_src\publishInstaller\obj\Release\net8.0-windows\win-x64\PDFcombineInstaller.sourcelink.json
+C:\Users\dunc3\OneDrive\Documents\Play\Website\installer_src\publishInstaller\obj\Release\net8.0-windows\win-x64\PDFcombine-setup.dll
+C:\Users\dunc3\OneDrive\Documents\Play\Website\installer_src\publishInstaller\obj\Release\net8.0-windows\win-x64\refint\PDFcombine-setup.dll
+C:\Users\dunc3\OneDrive\Documents\Play\Website\installer_src\publishInstaller\obj\Release\net8.0-windows\win-x64\PDFcombine-setup.pdb
+C:\Users\dunc3\OneDrive\Documents\Play\Website\installer_src\publishInstaller\bin\Release\net8.0-windows\win-x64\PDFcombine-setup.deps.json
+C:\Users\dunc3\OneDrive\Documents\Play\Website\installer_src\publishInstaller\bin\Release\net8.0-windows\win-x64\PDFcombine-setup.runtimeconfig.json
+C:\Users\dunc3\OneDrive\Documents\Play\Website\installer_src\publishInstaller\bin\Release\net8.0-windows\win-x64\PDFcombine-setup.dll
+C:\Users\dunc3\OneDrive\Documents\Play\Website\installer_src\publishInstaller\bin\Release\net8.0-windows\win-x64\PDFcombine-setup.pdb
+C:\Users\dunc3\OneDrive\Documents\Play\Website\installer_src\publishInstaller\obj\Release\net8.0-windows\win-x64\PDFcombineInstaller.genruntimeconfig.cache
+C:\Users\dunc3\OneDrive\Documents\Play\Website\installer_src\publishInstaller\obj\Release\net8.0-windows\win-x64\ref\PDFcombine-setup.dll

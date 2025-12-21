@@ -1,0 +1,1 @@
+@echo off`r`nsetlocal`r`nset TARGET=%LocalAppData%\Programs\PDFcombine`r`nmkdir "%TARGET%" 2>nul`r`nxcopy /E /I /Y "%~dp0payload\*" "%TARGET%" >nul`r`nif "%1"=="/run" start "" "%TARGET%\PDFcombine.exe"`r`necho Installation complete: %TARGET%`r`nendlocal`r`nexit /b 0

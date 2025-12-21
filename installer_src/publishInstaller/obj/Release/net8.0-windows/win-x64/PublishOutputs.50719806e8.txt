@@ -1,0 +1,2 @@
+C:\Users\dunc3\OneDrive\Documents\Play\Website\installer_build\publish\PDFcombine-setup.pdb
+C:\Users\dunc3\OneDrive\Documents\Play\Website\installer_build\publish\PDFcombine-setup.exe
