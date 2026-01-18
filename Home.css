@@ -4,7 +4,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(135deg, #f0f4f8 0%, #d9e2ec 100%); /* Softer, professional gradient */
+    background: linear-gradient(135deg, #f0f7ff 0%, #e6f3ff 100%); /* Subtle blue gradient */
     color: #333;
     min-height: 100vh;
     display: flex;
@@ -22,7 +22,7 @@ header {
 header h1 {
     margin: 0;
     font-size: 2.5em;
-    color: #2645d0; /* Keep your blue */
+    color: #0078D4; /* Microsoft blue */
 }
 
 nav ul {
@@ -37,7 +37,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #2645d0;
+    color: #0078D4;
     text-decoration: none;
     font-weight: bold;
     padding: 10px 15px;
@@ -46,7 +46,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #e6f0ff;
+    background-color: #e6f3ff;
     transform: translateY(-2px);
 }
 
@@ -74,14 +74,14 @@ section:hover {
 }
 
 section h2 {
-    color: #2645d0;
-    border-bottom: 3px solid #667eea;
+    color: #0078D4;
+    border-bottom: 3px solid #00BCF2;
     padding-bottom: 10px;
     margin-bottom: 20px;
 }
 
 footer {
-    background: #2645d0;
+    background: #0078D4;
     color: white;
     text-align: center;
     padding: 20px 0;
@@ -104,7 +104,7 @@ footer {
     display: inline-block;
     margin-top: 20px;
     padding: 10px 20px;
-    background-color: #2645d0;
+    background-color: #0078D4;
     color: white;
     text-decoration: none;
     border-radius: 25px;
@@ -112,7 +112,7 @@ footer {
 }
 
 .cta-button:hover {
-    background-color: #1a3399;
+    background-color: #005A9E;
 }
 
 /* Resume-specific styles */
@@ -127,7 +127,7 @@ footer {
 .resume-header h3 {
     margin: 0;
     font-size: 1.8em;
-    color: #2645d0;
+    color: #0078D4;
 }
 
 .resume-section {
@@ -135,8 +135,8 @@ footer {
 }
 
 .resume-section h3 {
-    color: #2645d0;
-    border-bottom: 2px solid #667eea;
+    color: #0078D4;
+    border-bottom: 2px solid #00BCF2;
     padding-bottom: 5px;
     margin-bottom: 20px;
 }
@@ -169,7 +169,7 @@ footer {
 
 .skills-grid div h4 {
     margin-top: 0;
-    color: #2645d0;
+    color: #0078D4;
 }
 
 .skills-grid ul li {
@@ -179,7 +179,7 @@ footer {
 
 .skills-grid ul li i {
     margin-right: 8px;
-    color: #667eea;
+    color: #00BCF2;
 }
 
 /* Responsive design */
