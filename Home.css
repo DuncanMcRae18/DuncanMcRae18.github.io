@@ -194,7 +194,8 @@ footer {
         padding: 20px 10px;
     }
     .profile-img {
-        width: 150px;
+        width: 200px;
+        height: 200px;
     }
     .skills-grid {
         grid-template-columns: 1fr;
