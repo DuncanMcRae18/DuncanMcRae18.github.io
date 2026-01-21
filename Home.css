@@ -111,12 +111,13 @@ footer {
 
 /* Project image styling */
 .project-img {
-    width: 500px; /* Smaller for side-by-side */
-    height: auto;
+    width: 300px; /* Consistent width */
+    height: 200px; /* Fixed height for uniform look */
     display: block;
     margin: 20px auto; /* Center horizontally */
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    object-fit: cover; /* Crop to fit */
 }
 
 
