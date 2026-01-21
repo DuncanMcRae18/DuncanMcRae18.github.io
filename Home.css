@@ -111,8 +111,8 @@ footer {
 
 /* Project image styling */
 .project-img {
-    width: 300px; /* Consistent width */
-    height: 200px; /* Fixed height for uniform look */
+    width: 500px; /* Consistent width */
+    height: auto; /* Fixed height for uniform look */
     display: block;
     margin: 20px auto; /* Center horizontally */
     border-radius: 10px;
