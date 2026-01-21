@@ -64,13 +64,6 @@ section {
     background: #2a2a2a; /* Darker section background */
     border-radius: 0; /* Removed for professional look */
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
-    transition: transform 0.3s ease;
-}
-
-
-
-section:hover {
-    transform: translateY(-5px);
 }
 
 section h2 {
