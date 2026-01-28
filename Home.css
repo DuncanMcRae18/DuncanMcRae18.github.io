@@ -1,28 +1,36 @@
 /* Home.css */
 
+:root {
+  --a: #0077BE;
+  --b: #00A8CC;
+  --c: #deeff1;
+  --d: #CAF0F8;
+  --e: #03045E;
+}
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(135deg, #0f0f0f 0%, #1a1a1a 100%); /* Dark gradient for professional look */
-    color: #ffffff; /* White text */
+    background: var(--d); /* Green background */
+    color: var(--b); /* Light blue text */
     min-height: 100vh;
     display: grid;
     grid-template-rows: auto 1fr auto; /* Header, main (flexible), footer */
 }
 
 header {
-    background: #1a1a1a; /* Dark background */
-    color: #ffffff;
+    background: var(--b); /* Light blue background */
+    color: var(--e);
     padding: 20px 0;
     text-align: center;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 2px 10px rgb(255, 255, 255);
 }
 
 header h1 {
     margin: 0;
     font-size: 2.5em;
-    color: #ffffff; /* White for contrast */
+    color: var(--c); /* Brown for contrast */
 }
 
 nav ul {
@@ -37,7 +45,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #ffffff;
+    color: var(--c);
     text-decoration: none;
     font-weight: bold;
     padding: 10px 15px;
@@ -46,7 +54,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #333333;
+    background-color: var(--a);
     transform: translateY(-2px);
 }
 
@@ -54,29 +62,30 @@ main {
     flex: 1;
     padding: 40px 20px;
     max-width: 1500px;
-    margin: 0 auto;
-    background: #1a1a1a; /* Dark background */
+    margin: 20px auto;  
+    border-radius: 20px;
+    background: var(--b); /* Light background */
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 }
 
 section {
     margin-bottom: 30px;
     padding: 20px;
-    background: #2a2a2a; /* Darker section background */
-    border-radius: 0; /* Removed for professional look */
+    background: var(--c); /* Gray blue section background */
+    border-radius: 20px; /* Removed for professional look */
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
 }
 
 section h2 {
-    color: #ffffff; /* White for contrast */
-    border-bottom: 3px solid #00BCF2;
+    color: var(--e); /* Brown for contrast */
+    border-bottom: 3px solid var(--a);
     padding-bottom: 10px;
     margin-bottom: 20px;
 }
 
 footer {
-    background: #000000; /* Black footer */
-    color: white;
+    background: var(--d); /* Green footer */
+    color: var(--b);
     text-align: center;
     padding: 20px 0;
     margin-top: auto;
@@ -97,7 +106,7 @@ footer {
 .intro-text {
     font-style: italic; /* Makes it italic for emphasis */
     font-size: 1.1em; /* Slightly larger text */
-    color: #cccccc; /* Subtle gray color */
+    color: var(--e); /* Brown color */
     text-align: justify; /* Justifies the text */
     margin: 40px 20px 20px 40px; /* Adds spacing */
     
@@ -128,15 +137,15 @@ footer {
     display: inline-block;
     margin-top: 20px;
     padding: 10px 20px;
-    background-color: #0078D4;
-    color: white;
+    background-color: var(--a);
+    color: var(--d);
     text-decoration: none;
     border-radius: 25px;
     transition: background-color 0.3s ease;
 }
 
 .cta-button:hover {
-    background-color: #005A9E;
+    background-color: var(--d);
 }
 
 /* Resume-specific styles */
@@ -144,14 +153,14 @@ footer {
     text-align: left;
     margin-bottom: 30px;
     padding: 20px;
-    background: #2a2a2a; /* Match section */
+    background: var(--c); /* Match section */
     border-radius: 10px;
 }
 
 .resume-header h3 {
     margin: 0;
     font-size: 1.8em;
-    color: #ffffff;
+    color: var(--e);
 }
 
 .resume-section {
@@ -159,8 +168,8 @@ footer {
 }
 
 .resume-section h3 {
-    color: #ffffff;
-    border-bottom: 2px solid #00BCF2;
+    color: var(--e);
+    border-bottom: 2px solid var(--a);
     padding-bottom: 5px;
     margin-bottom: 20px;
 }
@@ -172,13 +181,13 @@ footer {
 
 .job-entry h4 {
     margin: 0 0 5px 0;
-    color: #ffffff;
+    color: var(--e);
     font-size: 1.2em;
 }
 
 .job-meta {
     font-style: italic;
-    color: #cccccc; /* Light gray */
+    color: var(--d); /* Green */
     margin: 5px 0 10px 0;
 }
 
@@ -190,7 +199,7 @@ footer {
 
 .skills-grid div h4 {
     margin-top: 0;
-    color: #ffffff;
+    color: #815355;
 }
 
 .skills-grid ul li {
@@ -200,7 +209,7 @@ footer {
 
 .skills-grid ul li i {
     margin-right: 8px;
-    color: #00BCF2;
+    color: var(--a);
 }
 
 /* Responsive design */
