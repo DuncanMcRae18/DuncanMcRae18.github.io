@@ -1,27 +1,27 @@
 /* Home.css */
 
 :root {
-  --a: #0077BE;
-  --b: #00A8CC;
-  --c: #deeff1;
-  --d: #CAF0F8;
-  --e: #03045E;
+  --a: #007bff; /* Professional blue accent */
+  --b: #ffffff; /* White */
+  --c: #f8f9fa; /* Light gray background */
+  --d: #6c757d; /* Medium gray */
+  --e: #000000; /* Black */
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Arial', 'Helvetica', sans-serif;
     margin: 0;
     padding: 0;
-    background: var(--d); /* Green background */
-    color: var(--b); /* Light blue text */
+    background: var(--c); /* Light gray background */
+    color: var(--e); /* Black text */
     min-height: 100vh;
     display: grid;
     grid-template-rows: auto 1fr auto; /* Header, main (flexible), footer */
 }
 
 header {
-    background: var(--b); /* Light blue background */
-    color: var(--e);
+    background: var(--e); /* Black background */
+    color: var(--b); /* White text */
     padding: 20px 0;
     text-align: center;
     box-shadow: 0 2px 10px rgb(255, 255, 255);
@@ -30,7 +30,7 @@ header {
 header h1 {
     margin: 0;
     font-size: 2.5em;
-    color: var(--c); /* Brown for contrast */
+    color: var(--b); /* White for contrast */
 }
 
 nav ul {
@@ -45,11 +45,11 @@ nav ul li {
 }
 
 nav ul li a {
-    color: var(--c);
+    color: var(--b); /* White */
     text-decoration: none;
     font-weight: bold;
     padding: 10px 15px;
-    border-radius: 25px;
+    border-radius: 10px;
     transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
@@ -60,23 +60,15 @@ nav ul li a:hover {
 
 main {
     flex: 1;
-    padding: 40px 20px;
+    padding: 20px;
     max-width: 1500px;
     margin: 20px auto;  
-    border-radius: 20px;
-    background: var(--b); /* Light background */
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
-}
-
-section {
-    margin-bottom: 30px;
-    padding: 20px;
-    background: var(--c); /* Gray blue section background */
-    border-radius: 20px; /* Removed for professional look */
+    border-radius: 10px;
+    background: var(--b); /* White background */
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
 }
 
-section h2 {
+main h2 {
     color: var(--e); /* Brown for contrast */
     border-bottom: 3px solid var(--a);
     padding-bottom: 10px;
@@ -84,8 +76,8 @@ section h2 {
 }
 
 footer {
-    background: var(--d); /* Green footer */
-    color: var(--b);
+    background: var(--d); /* Medium gray footer */
+    color: var(--b); /* White text */
     text-align: center;
     padding: 20px 0;
     margin-top: auto;
@@ -138,9 +130,9 @@ footer {
     margin-top: 20px;
     padding: 10px 20px;
     background-color: var(--a);
-    color: var(--d);
+    color: var(--b); /* White */
     text-decoration: none;
-    border-radius: 25px;
+    border-radius: 10px;
     transition: background-color 0.3s ease;
 }
 
@@ -161,10 +153,6 @@ footer {
     margin: 0;
     font-size: 1.8em;
     color: var(--e);
-}
-
-.resume-section {
-    margin-bottom: 40px;
 }
 
 .resume-section h3 {
@@ -199,7 +187,7 @@ footer {
 
 .skills-grid div h4 {
     margin-top: 0;
-    color: #815355;
+    color: var(--e); /* Black */
 }
 
 .skills-grid ul li {
@@ -210,6 +198,25 @@ footer {
 .skills-grid ul li i {
     margin-right: 8px;
     color: var(--a);
+}
+
+.skills-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.skills-table th, .skills-table td {
+    border: 1px solid var(--d);
+    padding: 8px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.skills-table th {
+    background-color: var(--c);
+    font-weight: bold;
+    color: var(--e);
 }
 
 /* Responsive design */
